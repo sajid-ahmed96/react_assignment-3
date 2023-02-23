@@ -21,6 +21,12 @@ body {
   color: white;
 }
 
+p {
+  color: white;
+  text-align: center;
+  font-size: 24px;
+}
+
 .App-header {
   background-color: #282c34;
   height: 100vh;
@@ -44,22 +50,10 @@ body {
   padding-right: 20px;
 }
 
-.opt-btn {
-  width: 80%;
-  color: white;
-  padding: 10px;
-  outline: none;
-  background: none;
-  border: none;
-  border: 1px solid dodgerblue;
-  border-radius: 20px;
-  transition: 0.3s ease-out;
+center {
+  margin-top: 50px;
 }
 
-.opt-btn:hover {
-  width: 100%;
-  /* background-color: white; */
-  color: dodgerblue;
-  /* background-color: dodgerblue; */
-  /* padding: 20px; */
+.skipBtn {
+  width: 25%;
 }

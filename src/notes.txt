@@ -1,0 +1,6 @@
+<button className='opt-btn' onClick={()=>checkAns(e, questions[indexNum].answer)}>{i+1}: <b>{e}</b></button>
+const [isOn, setIsOn] = useState(false);
+<div>
+  <button onClick={()=>setIsOn(!isOn)}  >{isOn ? "On" : "Off"}</button>
+  {isOn && <h1>ON</h1>}
+</div>
